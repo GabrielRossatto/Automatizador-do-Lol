@@ -1,14 +1,12 @@
 import champ
-import accept 
-import ban 
-
-#PROGRAMA PRINCIPAL
+import ban
+import accept
 
 while True:
     if accept.check_screen():
         continue    
-    if champ.choose_champ():
+    if ban.check_ban():
         continue
-    if ban.check_ban(): 
+    if champ.choose_champ(): 
         break
 

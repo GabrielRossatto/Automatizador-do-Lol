@@ -1,7 +1,7 @@
 import pyautogui
 from time import sleep
-
 ban = input('Digite o campeao que vc quer banir: ')
+
 
 def ban_champ(c, d):  
     """Move o mouse até o campeão a ser banido e bane"""
